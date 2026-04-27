@@ -1,0 +1,9 @@
+# Python-generated files
+.env
+uploads/
+__pycache__/
+*.db
+chroma_db/
+
+# Virtual environments
+.venv
