@@ -1,6 +1,6 @@
 # Python-generated files
 .env
-uploads/
+upload/
 __pycache__/
 *.db
 chroma_db/
