@@ -39,7 +39,6 @@ Question → Embedding → Similarity search → Top-k chunks → Gemini → Ans
 ├── upload/          # Uploaded PDFs (git-ignored)
 ├── Chroma_DB/       # ChromaDB persistence (git-ignored)
 ├── .env             # API keys (git-ignored)
-├── .env.example     # Template for environment variables
 ├── requirements.txt
 └── README.md
 ```
@@ -50,14 +49,14 @@ Question → Embedding → Similarity search → Top-k chunks → Gemini → Ans
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/PhiViet03/RAGnosis
+cd RAGnosis
 ```
 
 **2. Create a virtual environment**
 ```bash
 python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
+source venv/bin/activate
 ```
 
 **3. Install dependencies**
@@ -67,7 +66,6 @@ pip install -r requirements.txt
 
 **4. Set your API key**
 ```bash
-cp .env.example .env
 # then edit .env and add your GEMINI_API_KEY
 ```
 
