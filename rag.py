@@ -36,6 +36,7 @@ def store_data(chunks: list, embeddings_model):
     )
     return vectorstore
 
+#testing only
 if __name__ == "__main__":
     text = load_pdf("upload/PDF-Test.pdf")
     chunks = split_text(text)
@@ -43,7 +44,7 @@ if __name__ == "__main__":
     e_model = load_embeddings()
     VectorStore = store_data(chunks, e_model)
 
-    question = "Tên sinh viên làm đề tài là?"
+    question = "Question?"
     result = VectorStore.similarity_search(question, k=3)
     
     print(f"top 3 most relevant chunk for '{question}'")

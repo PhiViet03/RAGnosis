@@ -4,6 +4,8 @@ upload/
 __pycache__/
 *.db
 chroma_db/
+uv.lock
+.python-version
 
 # Virtual environments
 .venv

@@ -7,6 +7,7 @@ requires-python = ">=3.14"
 dependencies = [
     "chromadb>=1.5.8",
     "fastapi>=0.136.0",
+    "google-genai>=1.73.1",
     "google-generativeai>=0.8.6",
     "langchain>=1.2.15",
     "langchain-chroma>=1.1.0",
@@ -14,6 +15,7 @@ dependencies = [
     "langchain-huggingface>=1.2.2",
     "pymupdf>=1.27.2.2",
     "python-dotenv>=1.2.2",
+    "python-multipart>=0.0.27",
     "sentence-transformers>=5.4.1",
     "uvicorn>=0.45.0",
 ]
