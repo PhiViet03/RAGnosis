@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 **4. Set your API key**
 ```bash
-# then edit .env and add your GEMINI_API_KEY
+edit .env and add your GEMINI_API_KEY
 ```
 
 **5. Run the server**
